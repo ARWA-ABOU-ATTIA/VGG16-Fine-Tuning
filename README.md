@@ -1,5 +1,3 @@
-بما أن المشروع لديك يحتوي فقط على **Notebook (`fine-tuning-on-classification-task.ipynb`)**، سأقوم بتحديث ملف **README** ليعكس ذلك بشكل دقيق دون الإشارة إلى ملفات غير موجودة مثل `train.py` و `predict.py`.  
-
 ---
 
 # 🐶🐱 Cats vs. Dogs Classification with Fine-Tuned `VGG16`  
