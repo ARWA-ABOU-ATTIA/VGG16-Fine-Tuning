@@ -1,33 +1,37 @@
-# 🐶🐱 Fine-Tuning `VGG16` for Cats & Dogs Classification  
+بما أن المشروع لديك يحتوي فقط على **Notebook (`fine-tuning-on-classification-task.ipynb`)**، سأقوم بتحديث ملف **README** ليعكس ذلك بشكل دقيق دون الإشارة إلى ملفات غير موجودة مثل `train.py` و `predict.py`.  
 
-🚀 **Fine-Tuning a Pre-Trained CNN for Image Classification**  
-This project focuses on modifying and fine-tuning a **pre-trained VGG16 model** to classify images of cats and dogs. It incorporates **Transfer Learning**, **Data Augmentation**, and **Hyperparameter Optimization** to enhance model performance.  
+---
+
+# 🐶🐱 Cats vs. Dogs Classification with Fine-Tuned `VGG16`  
+
+🚀 **Advanced AI-Powered Image Classification**  
+This project fine-tunes a **pretrained VGG16 model** to classify images of cats and dogs. By leveraging **Transfer Learning**, **Data Augmentation**, and **Fine-Tuning**, we optimize the model to achieve better performance.  
+
 
 📌 This is part of an **exercise assigned by Dr. Noha** to apply fine-tuning on pre-trained CNN models for a specific case study.  
 
 
 [NoteBook Link⛓️‍💥](https://www.kaggle.com/code/arwaabouattia/fine-tuning-on-classification-task)
-
 ---
 
 ## 🌟 Key Features  
-✅ **Uses VGG16 as a base model** with additional custom layers  
-✅ **Fine-tuned specific layers** to adapt to our dataset  
-✅ **Applied Data Augmentation** to prevent overfitting  
-✅ **Evaluated performance using Confusion Matrix & Classification Report**  
-✅ **Experimented with different learning rates and optimizers**  
+✅ **Pretrained VGG16 Model** fine-tuned for improved accuracy  
+✅ **Transfer Learning & Fine-Tuning** for efficient training  
+✅ **Data Augmentation** to enhance generalization  
+✅ **Confusion Matrix & Classification Report** for evaluation  
+✅ **End-to-End Pipeline** in a single Jupyter Notebook  
 
 ---
 
-## 📌 Model Architecture  
+## 🏗️ Model Overview  
 
-### **🧩 Base Model (Before Modifications)**  
-The original VGG16 model used as a feature extractor:  
+### **🔍 Base Model (Before Modifications)**  
+The architecture before applying modifications:  
 ![Base Model Summary](https://github.com/user-attachments/assets/1add889c-a07c-4641-bb83-f31dc1c498d7)  
 
-### **🔧 Fine-Tuned Model (After Modifications)**  
-After applying custom layers, unfreezing selective layers, and tuning hyperparameters:  
-![Fine-Tuned Model Summary](https://github.com/user-attachments/assets/2e831e21-c7c6-49ac-8010-6aad7d5c5e8d)  
+### **⚙️ Modified Model (After Fine-Tuning)**  
+The architecture after applying transfer learning and fine-tuning:  
+![Final Model Summary](https://github.com/user-attachments/assets/2e831e21-c7c6-49ac-8010-6aad7d5c5e8d)  
 
 ---
 
@@ -45,26 +49,22 @@ Ensure you have the required packages installed:
 pip install tensorflow keras numpy matplotlib scikit-learn
 ```
 
-### **3️⃣ Train the Model**  
-Run the following command to train the model:  
+### **3️⃣ Open the Jupyter Notebook**  
+Run the following command to start Jupyter Notebook and open the project:  
 ```bash
-python train.py
+jupyter notebook fine-tuning-on-classification-task.ipynb
 ```
 
-### **4️⃣ Test the Model**  
-Classify new images by running:  
-```bash
-python predict.py --image sample.jpg
-```
+### **4️⃣ Run the Cells**  
+Step through each section in the notebook to train and evaluate the model.  
 
 ---
 
-## 📊 Results  
+## 📊 Model Performance  
 
 ### **Confusion Matrix**  
-The model's performance can be visualized using the confusion matrix:  
-![confusion_matrix](https://github.com/user-attachments/assets/88bac5dc-391b-4c57-b01e-96e504ae4aa8)
-
+The model's performance in distinguishing cats from dogs:  
+![confusion_matrix](https://github.com/user-attachments/assets/88bac5dc-391b-4c57-b01e-96e504ae4aa8)  
 
 ### **Classification Report**  
 ```
@@ -73,19 +73,18 @@ The model's performance can be visualized using the confusion matrix:
        Dogs       0.50      0.46      0.47      2500
     Accuracy                           0.50      5000
 ```
-✅ **Final Accuracy: ~50%** → Room for improvements!  
+📉 **Accuracy: ~50%** → Requires further optimization!  
 
 ---
 
-## 🚀 Areas for Improvement  
-- **Experiment with different architectures** (EfficientNet, Vision Transformers)  
-- **Optimize hyperparameters** (learning rate, batch size)  
-- **Fine-tune additional layers** for better feature extraction  
-- **Address class imbalance** to enhance model generalization  
+## 🔥 Future Enhancements  
+🔹 **Experiment with deeper architectures (EfficientNet, ResNet50)**  
+🔹 **Optimize hyperparameters (learning rate, batch size, dropout rate)**  
+🔹 **Address class imbalance using weighted loss functions**  
+🔹 **Fine-tune additional layers to enhance feature extraction**  
+
 ---
 
 ## 🤝 Contributing  
-Contributions are welcome! Feel free to **open an issue** or **submit a pull request**. 🎯  
-
-📩 **Contact:**  
+📩 **Contact Me:**  
 [📧 Email](mailto:arwaabouattia@gmail.com)  
