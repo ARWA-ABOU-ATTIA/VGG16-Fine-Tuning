@@ -5,6 +5,9 @@ This project focuses on modifying and fine-tuning a **pre-trained VGG16 model** 
 
 📌 This is part of an **exercise assigned by Dr. Noha** to apply fine-tuning on pre-trained CNN models for a specific case study.  
 
+
+[NoteBook Link⛓️‍💥](https://www.kaggle.com/code/arwaabouattia/fine-tuning-on-classification-task)
+
 ---
 
 ## 🌟 Key Features  
@@ -86,4 +89,3 @@ Contributions are welcome! Feel free to **open an issue** or **submit a pull req
 
 📩 **Contact:**  
 [📧 Email](mailto:arwaabouattia@gmail.com)  
-```
